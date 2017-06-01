@@ -1,0 +1,21 @@
+//META{"name":"Disable Blocked","description":"<b>This is a plugin that acts as a theme</b> <br>Disable blocked messages, for good.","author":"Darkmane","version":"Dev 1"}*//
+
+
+/*
+
+The following code hides the button to show blocked messages as well as hiding "1 blocked message"
+
+*/
+
+/* Blocked message CSS */
+.message-group-blocked {
+ display:none;
+  visibility: hidden;
+}
+
+.message-group-blocked .message-group-blocked-btn {
+  display:none;
+  visibility: hidden;
+}
+
+
